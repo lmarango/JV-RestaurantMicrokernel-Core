@@ -47,7 +47,7 @@ public class ComponentRepository implements IComponentRepository{
         try {
             conn.close();
         } catch (SQLException ex) {
-            Logger.getLogger(ComponenteRepositoryImplMysql.class.getName()).log(Level.FINER, "Error al cerrar Connection", ex);
+            Logger.getLogger(ComponentRepository.class.getName()).log(Level.FINER, "Error al cerrar Connection", ex);
         }
     }
 //</editor-fold>
